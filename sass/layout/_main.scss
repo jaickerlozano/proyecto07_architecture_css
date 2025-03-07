@@ -8,7 +8,8 @@ main {
     grid-template-areas: 
         'hero hero'
         'numbers services';
-    background-image: url('../../img/image01@2x.jpg'), url('../../img/image02@2x.jpg');
+    background-image: image-set(url('../../img/image01.jpg'), url('../../img/image01@2x.jpg')),
+                        image-set(url('../../img/image02.jpg'), url('../../img/image02@2x.jpg'));
     background-repeat: no-repeat;
     background-position: 50% 0%, 100% 0%;
     background-size: 30%, 30%;
